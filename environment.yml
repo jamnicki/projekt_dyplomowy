@@ -1,0 +1,20 @@
+name: bachelor_thesis_project
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pip==22.3.1
+  - python==3.8
+  - setuptools==65.5.1
+  - wheel==0.38.4
+  - spacy==3.4.2
+  - ipywidgets
+
+  - pip:
+    - argilla[server]==1.0.1
+    - spacy[transformers,lookups]
+    - datasets==2.6.1
+    - matplotlib
+    - jsonlines
+    - flake8
