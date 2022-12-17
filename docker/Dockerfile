@@ -21,5 +21,5 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 ADD . /app
 WORKDIR /app
-
+ 
 CMD ["python3", "active_learning_loop.py"]
