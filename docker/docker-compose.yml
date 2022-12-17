@@ -43,7 +43,7 @@ services:
       ELASTICSEARCH_HOSTS: '["http://elasticsearch:9200"]'
     networks:
       - argilla
-
+ 
   active_learner:
     build: .
     ports:
